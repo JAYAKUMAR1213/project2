@@ -91,7 +91,7 @@
 
   
        //submit function
-       var collection = [], stor=[];;
+       var object_new,collection = [], stor=[];;
         function second()
         {
           
@@ -103,11 +103,11 @@
          var num5 = document.getElementById("date").value
          var num6 = document.querySelector('input[name="gender"]:checked').value;
          
-         collection = {'1':num1,'2':num2,'3':num3,'4':num4,'5':num5,'6':num6,'7':num7};
+         object_new = {'1':num1,'2':num2,'3':num3,'4':num4,'5':num5,'6':num6,'7':num7};
          let i=(collection.length+1);
          var n=i;
          while(i==n){
-          collection[i] = object_new;
+          collection[i] =object_new;
              //console.log(collection);
              i++;
          }
@@ -133,7 +133,7 @@ stor = JSON.stringify(filtered);
 }
 function save1()
 {
-     window.open('file:///F:/class%20%20a/class%20b/front%20end%20class/html/22%204%2022%20demo3.html');
+     window.open('file:///C:/projects/hi/page3.html');
 }
        
 
